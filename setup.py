@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="git-license-scanner",
     version="0.5.0",
-    author="YOU-RONG, ZHENG",  # 改成你的名字
-    author_email="ghhab852@gmail.com",  # 改成你的 email
+    author="YOU-RONG, ZHENG",
+    author_email="ghhab852@gmail.com",
     description="A CLI tool to scan and identify software licenses in Git repositories",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/git-license-scanner",  # 改成你的 GitHub
+    url="https://github.com/yrzheng0419/git-license-scanner",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

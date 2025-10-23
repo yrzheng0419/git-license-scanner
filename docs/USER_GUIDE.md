@@ -40,7 +40,7 @@ license-scan . --show-content
 
 ## 常見問題
 
-### Q: 為什麼無法識別授權？
+### Q: 為什麼無法辨識授權？
 A: 可能的原因：
 - LICENSE 檔案內容不完整
 - 使用了不常見的授權類型
@@ -72,61 +72,3 @@ fi
 
 ### 高風險 🔴
 強制開源，不適合閉源商業產品
-```
-
-儲存後離開。
-
----
-
-## 📚 階段 4 總結
-
-恭喜你完成最後階段！你的專案現在：
-
-✅ **功能完整**
-- 文字輸出（彩色、表格）
-- JSON 輸出（方便程式化使用）
-- 信心度警告
-- 風險評估
-
-✅ **可安裝使用**
-- setup.py 設定完成
-- 可以用 `pip install` 安裝
-- 全域命令 `license-scan` 可用
-
-✅ **文件完善**
-- 專業的 README.md
-- 使用者指南
-- 程式碼註解清楚
-
-✅ **展示就緒**
-- demo.sh 展示腳本
-- 多個測試範例
-- JSON 報告輸出
-
----
-
-## 🗂️ 最終專案結構
-```
-git-license-scanner/
-├── LICENSE                         ← MIT 授權
-├── README.md                       ← 專業版說明文件 ★
-├── setup.py                        ← 安裝設定 ★
-├── requirements.txt
-├── .gitignore                      ← Git 忽略檔案 ★
-├── demo.sh                         ← 展示腳本 ★
-├── report.json                     ← 測試生成的報告
-├── venv/
-├── license_scanner/
-│   ├── __init__.py                 ← 套件初始化 ★
-│   ├── cli_v5.py                   ← 最終版 CLI ★
-│   ├── scanner.py
-│   └── licenses_db.py
-├── docs/
-│   └── USER_GUIDE.md               ← 使用指南 ★
-├── examples/
-│   ├── test-project-mit/
-│   ├── test-project-gpl/
-│   ├── test-project-apache/
-│   ├── test-project-unclear/
-│   └── test-project-no-license/
-└── tests/                          ← 未來可以加測試

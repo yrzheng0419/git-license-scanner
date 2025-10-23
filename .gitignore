@@ -1,8 +1,3 @@
-nano .gitignore
-```
-
-**檔案內容：**
-```
 # Python
 __pycache__/
 *.py[cod]
