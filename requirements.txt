@@ -1,0 +1,15 @@
+# CLI Framework
+click>=8.1.0
+
+# Git repository interaction
+GitPython>=3.1.0
+
+# Terminal colors and formatting
+colorama>=0.4.6
+rich>=13.0.0
+
+# Configuration files
+PyYAML>=6.0
+
+# HTTP requests (for downloading SPDX data)
+requests>=2.31.0
